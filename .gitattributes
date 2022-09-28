@@ -1,2 +1,49 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+while True:
+    print("""Selecciona la operacion deseada:
+1.Suma
+2.Resta
+3.Multiplicacion
+4.Division
+5.Division exacta
+6.Potencia
+7.Apagar calculadora""")
+    espacio(1)
+ 
+    caso=int(input())
+
+    if caso == 7:
+        print ("Gracias por usar esta calculadora")
+        wait(2)
+        quit()
+ 
+    else:
+        print("Escribe el primer numero")
+        primer=int(input())
+        print("Escribe el segundo numero")
+        b=int(input())
+        espacio(2)
+        print("El resultado de esta operacion és:")
+
+ 
+        if caso == 1:
+            print(a+b)
+            print("")
+            
+
+
+
+        if caso == 2:
+            print(a-b)
+            print("")
+
+        if caso == 3:
+            print(a*b)
+            print("")
+    
+        if caso == 4:
+            print(a/b)
+            print("")
+     
+        if caso == 5:
+            print(a//b)
+            print("")
